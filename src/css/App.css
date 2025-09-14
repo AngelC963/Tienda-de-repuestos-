@@ -7,7 +7,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #211f1f;
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
 
 /* Header Styles */
 .header {
-    background: #2c3e50;
+    background: #2c4d6d;
     color: white;
     padding: 1rem 0;
     position: fixed;
@@ -36,7 +36,7 @@ body {
 
 .logo h1 {
     font-size: 1.8rem;
-    color: #3498db;
+    color: #cbcfd2;
 }
 
 .logo i {
@@ -105,7 +105,7 @@ body {
 }
 
 .btn:hover {
-    background: #2980b9;
+    background: #1b7bbc;
 }
 
 /* Section Titles */
@@ -113,7 +113,7 @@ body {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #2c3e50;
+    color: #2e3945;
     position: relative;
 }
 
@@ -156,21 +156,21 @@ body {
 .feature {
     text-align: center;
     padding: 1.5rem;
-    background: white;
+    background: rgb(212, 179, 179);
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .feature i {
     font-size: 2rem;
-    color: #3498db;
+    color: #b9bfc2;
     margin-bottom: 1rem;
 }
 
 .about-image img {
     width: 100%;
     border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 30px rgba(218, 68, 68, 0.2);
 }
 
 /* Sales Section */
@@ -180,13 +180,13 @@ body {
 
 .category {
     margin-bottom: 2rem;
-    border: 1px solid #ddd;
+    border: 1px solid #190f0f;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .category-title {
-    background: #34495e;
+    background: #497aab;
     color: white;
     padding: 1.5rem;
     cursor: pointer;
@@ -253,7 +253,7 @@ body {
 /* Contact Section */
 .contact {
     padding: 80px 0;
-    background: #f8f9fa;
+    background: #dbe4ed;
 }
 
 .contact-content {

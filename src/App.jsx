@@ -3,21 +3,24 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Sales from './components/Sales';
-import Contact from './components/Contacto';
+import Contacto from './components/Contacto';
 import Footer from './components/Footer';
-import './css/App.css'; 
- 
+import Cart from './components/Cart';
+import { CartProvider } from './hooks/useCart.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Hero />
-      <About />
-      <Sales />
-      <Contact />
-      <Footer />
-    </div>
+    <CartProvider>
+      <div className="App">
+        <Header />
+        <Hero />
+        <About />
+        <Sales />
+        <Contacto />
+        <Footer />
+        <Cart />
+      </div>
+    </CartProvider>
   );
 }
 

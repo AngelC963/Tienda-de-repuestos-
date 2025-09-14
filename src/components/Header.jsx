@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { useCart } from "../hooks/useCart"; 
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState('inicio');
+  const { toggleCart, getCartItemsCount } = useCart();
 
   const handleNavClick = (section) => {
     setActiveLink(section);
@@ -54,6 +56,12 @@ const Header = () => {
             </li>
           </ul>
         </nav>
+        
+        {/* Botón del carrito */}
+        <button onClick={toggleCart} className="cart-button">
+          <i className="fas fa-shopping-cart"></i> Carrito ({getCartItemsCount()})
+        </button>
+
         <div className="mobile-menu">
           <i className="fas fa-bars"></i>
         </div>
